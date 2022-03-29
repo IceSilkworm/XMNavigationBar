@@ -60,12 +60,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FF410CD022AF5A376023B71 /* Pods-XMNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNavigationBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XMNavigationBar_Tests/Pods-XMNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		81BF6308D5043A04148AF74F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81BF6308D5043A04148AF74F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		85394D4CDEFE1983F8E70897 /* Pods-XMNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNavigationBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-XMNavigationBar_Example/Pods-XMNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A187F1462400FDFB67B63058 /* Pods-XMNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNavigationBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-XMNavigationBar_Tests/Pods-XMNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CEA64D2447BC3A4EEA8A3D6C /* XMNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMNavigationBar.podspec; path = ../XMNavigationBar.podspec; sourceTree = "<group>"; };
-		E53214DED2C2252035475E67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEA64D2447BC3A4EEA8A3D6C /* XMNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMNavigationBar.podspec; path = ../XMNavigationBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E53214DED2C2252035475E67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FD804F91539054DC86B90047 /* Pods-XMNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNavigationBar_Example.release.xcconfig"; path = "Target Support Files/Pods-XMNavigationBar_Example/Pods-XMNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				7FF410CD022AF5A376023B71 /* Pods-XMNavigationBar_Tests.debug.xcconfig */,
 				A187F1462400FDFB67B63058 /* Pods-XMNavigationBar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
