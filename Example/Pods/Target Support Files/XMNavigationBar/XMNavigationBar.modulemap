@@ -1,0 +1,6 @@
+framework module XMNavigationBar {
+  umbrella header "XMNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

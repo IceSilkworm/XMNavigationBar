@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XMNavigationBar_Example' do
+  pod 'XMNavigationBar', :path => '../'
+
+  target 'XMNavigationBar_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
