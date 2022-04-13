@@ -1,15 +1,15 @@
 //
-//  UIViewController+XM.m
-//  FBSnapshotTestCase
+//  UIViewController+XMNavigationController.m
+//  XMNavigationBar
 //
 //  Created by ring on 2022/4/13.
 //
 
-#import "UIViewController+XM.h"
-#import <objc/runtime.h>
+#import "UIViewController+XMNavigationController.h"
 #import "XMNavigationController.h"
+#import <objc/runtime.h>
 
-@implementation UIViewController (XM)
+@implementation UIViewController (XMNavigationController)
 
 - (BOOL)xm_blackBarStyle{
     return self.xm_barStyle == UIBarStyleBlack;

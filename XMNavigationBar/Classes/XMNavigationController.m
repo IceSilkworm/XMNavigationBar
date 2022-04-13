@@ -6,7 +6,7 @@
 //
 
 #import "XMNavigationController.h"
-#import "UIViewController+XM.h"
+#import "UIViewController+XMNavigationController.h"
 #import "XMNavigationBar.h"
 
 BOOL isImageEqual(UIImage *image1, UIImage *image2) {

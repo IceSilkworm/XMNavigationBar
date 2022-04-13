@@ -1,6 +1,6 @@
 //
-//  UIViewController+XM.h
-//  FBSnapshotTestCase
+//  UIViewController+XMNavigationController.h
+//  XMNavigationBar
 //
 //  Created by ring on 2022/4/13.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (XM)
+@interface UIViewController (XMNavigationController)
 
 @property (nonatomic, assign) IBInspectable BOOL xm_blackBarStyle;
 @property (nonatomic, assign) UIBarStyle xm_barStyle;
