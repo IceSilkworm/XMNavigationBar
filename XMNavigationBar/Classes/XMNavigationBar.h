@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UILabel (NavigationBarTransition)
 
-@property(nonatomic, strong) UIColor *xm_specifiedTextColor;
+@property(nonatomic, strong, nullable) UIColor *xm_specifiedTextColor;
 
 @end
 

@@ -208,6 +208,14 @@
     return color;
 }
 
+- (XMNavigationController *)xm_navigationController {
+    UIViewController *vc = self;
+    while (vc && ![vc isKindOfClass:[XMNavigationController class]]) {
+        vc = vc.navigationController;
+    }
+    return (XMNavigationController *)vc;
+}
+
 - (void)xm_setNeedsUpdateNavigationBar {
     if (self.navigationController && [self.navigationController isKindOfClass:[XMNavigationController class]]) {
         XMNavigationController *nav = (XMNavigationController *)self.navigationController;

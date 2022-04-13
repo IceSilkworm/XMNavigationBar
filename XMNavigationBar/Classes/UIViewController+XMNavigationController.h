@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class XMNavigationController;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (XMNavigationController)
@@ -30,7 +32,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) UIColor *xm_computedBarTintColor;
 @property (nonatomic, strong, readonly) UIImage *xm_computedBarImage;
 
-// 这个属性是内部使用的
+/*!
+ *  @brief @c self\.navigationController will get a wrapping @c UINavigationController, use this property to get the real navigation controller
+ */
+@property (nonatomic, readonly, strong) XMNavigationController *xm_navigationController;
+
+/*!
+ *  @brief @c This property is for internal use
+ */
 @property (nonatomic, assign) BOOL xm_extendedLayoutDidSet;
 
 - (void)xm_setNeedsUpdateNavigationBar;

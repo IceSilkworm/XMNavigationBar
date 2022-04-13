@@ -20,25 +20,6 @@ static void xm_exchangeImplementations(Class class, SEL originalSelector, SEL sw
     }
 }
 
-//static UIView* findViewByName(UIView *view, NSString *name) {
-//    NSString *viewName = [[[view classForCoder] description] stringByReplacingOccurrencesOfString:@"_" withString:@""];
-//    if ([viewName isEqualToString:name]) {
-//        return view;
-//    }
-//
-//    UIView *v = nil;
-//
-//    if (view.subviews.count > 0) {
-//        for (UIView *sub in view.subviews) {
-//            v = findViewByName(sub, name);
-//            if (v != nil) {
-//                break;
-//            }
-//        }
-//    }
-//
-//    return v;
-//}
 
 @interface XMNavigationBar()
 
